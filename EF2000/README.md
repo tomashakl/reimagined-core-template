@@ -1,16 +1,9 @@
-# EF2000 — Skeleton (using locked core)
+# EF2000 — Style Demo (Retro 90s Metallic)
 
-This folder is a **content-only** EF2000 project that imports the **frozen technical core** from:
-`../core-locked/`
+This is a **visual prototype** of EF2000 using the **locked TFX core proportions 1:1**.
+Images are **placeholders** (SVG data URIs) so you can preview color/font choices.
 
-- `index.html` — structure aligned to the locked proportions (hero, 3 originals, 3 sliders, why, 2×3 gallery, about).
-- `custom-style.css` — visual overrides (colors/fonts only). **Do not** change layout metrics.
-- `assets/` — put images here (exact names below).
+- Keep `../core-locked/` untouched.
+- Replace placeholders by dropping your images into `/assets` and updating `index.html` paths.
 
-## Required assets
-- `logo.png`
-- `original1.jpg`, `original2.jpg`, `original3.jpg`
-- `reimagined1.jpg`, `reimagined2.jpg`, `reimagined3.jpg`
-- `gallery1.jpg` … `gallery6.jpg`  (optional hover swap: `gallery1b.jpg` … `gallery6b.jpg`)
-
-Generated: 2025-10-21T17:14:48Z
+Generated: 2025-10-21T17:28:53Z
