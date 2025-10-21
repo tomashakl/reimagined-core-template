@@ -1,9 +1,6 @@
-# EF2000 — Style Demo (Retro 90s Metallic)
+# EF2000 — True 1:1 Skeleton
 
-This is a **visual prototype** of EF2000 using the **locked TFX core proportions 1:1**.
-Images are **placeholders** (SVG data URIs) so you can preview color/font choices.
+This folder keeps the **exact TFX technical proportions**. No layout overrides.
+Placeholders are plain blocks to avoid optical changes; replace them later in `/assets`.
 
-- Keep `../core-locked/` untouched.
-- Replace placeholders by dropping your images into `/assets` and updating `index.html` paths.
-
-Generated: 2025-10-21T17:28:53Z
+Generated: 2025-10-21T18:10:37Z
