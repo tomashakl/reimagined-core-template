@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EF2000 — Then & Now · Reimagined 2025</title>
+  <meta name="description" content="EF2000 tribute built on the locked technical core.">
+  <!-- Import the FROZEN technical core (do not change paths) -->
+  <link rel="stylesheet" href="../core-locked/style.css">
+  <!-- Visual-only overrides (colors/fonts). DO NOT change layout metrics here. -->
+  <link rel="stylesheet" href="custom-style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-nav">
+    <div class="brand">▲ <span class="series">Then & Now</span></div>
+    <nav>
+      <a href="#original">The Original</a>
+      <a href="#reimagined">Reimagined</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO / LOGO -->
+    <section class="hero">
+      <div class="hero-inner">
+        <img class="logo" src="assets/logo.png" alt="EF2000 Logo">
+        <p class="subtitle">EF2000 — <span>REIMAGINED 2025</span></p>
+        <div class="cta">
+          <a class="btn primary" href="#reimagined">Enter Hangar</a>
+          <a class="btn" href="#gallery">View Gallery</a>
+        </div>
+      </div>
+      <div class="hero-shadow" aria-hidden="true"></div>
+    </section>
+
+    <!-- ORIGINAL (3 images, tight frames like core) -->
+    <section id="original" class="section">
+      <h2 class="section-title">The Original EF2000 (1995)</h2>
+      <p class="section-lead">Released in 1995 by Digital Image Design and Ocean Software, EF2000 pushed PC flight sims with a dynamic campaign, real 3D terrain and a cinematic camera.</p>
+      <div class="triptych">
+        <figure><img src="assets/original1.jpg" alt="Original screenshot 1"></figure>
+        <figure><img src="assets/original2.jpg" alt="Original screenshot 2"></figure>
+        <figure><img src="assets/original3.jpg" alt="Original screenshot 3"></figure>
+      </div>
+    </section>
+
+    <!-- REIMAGINED (3 stacked sliders, 16:9, max ~1100px) -->
+    <section id="reimagined" class="section">
+      <h2 class="section-title">Reimagined — 2025</h2>
+      <p class="section-lead">Drag the handle to compare the original DOS-era scene with the 2025 reinterpretation.</p>
+
+      <div class="ba" data-pair="1">
+        <img class="ba-after" src="assets/reimagined1.jpg" alt="Reimagined 1">
+        <img class="ba-before" src="assets/original1.jpg" alt="Original 1">
+        <input class="ba-range" type="range" min="0" max="100" value="50" aria-label="Compare image 1">
+        <div class="ba-divider"><span></span></div>
+      </div>
+
+      <div class="ba" data-pair="2">
+        <img class="ba-after" src="assets/reimagined2.jpg" alt="Reimagined 2">
+        <img class="ba-before" src="assets/original2.jpg" alt="Original 2">
+        <input class="ba-range" type="range" min="0" max="100" value="50" aria-label="Compare image 2">
+        <div class="ba-divider"><span></span></div>
+      </div>
+
+      <div class="ba" data-pair="3">
+        <img class="ba-after" src="assets/reimagined3.jpg" alt="Reimagined 3">
+        <img class="ba-before" src="assets/original3.jpg" alt="Original 3">
+        <input class="ba-range" type="range" min="0" max="100" value="50" aria-label="Compare image 3">
+        <div class="ba-divider"><span></span></div>
+      </div>
+    </section>
+
+    <!-- WHY -->
+    <section class="section why">
+      <h2 class="section-title">Why EF2000 Was Ahead of Its Time</h2>
+      <div class="cols">
+        <ul>
+          <li>Dynamic campaign engine</li>
+          <li>Real-time 3D terrain & weather</li>
+          <li>Cinematic camera & padlock views</li>
+          <li>Radio chatter and AI wingmen</li>
+        </ul>
+        <ul>
+          <li>Real-world theatres & mission variety</li>
+          <li>Time-of-day effects</li>
+          <li>Hardware-friendly performance</li>
+          <li>Flight model that felt alive</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- GALLERY (2x3 grid, hover-swap via data-alt optional) -->
+    <section id="gallery" class="section">
+      <h2 class="section-title">Gallery — Then & Now</h2>
+      <p class="section-lead">Click any image to open in a lightbox.</p>
+      <div class="grid6">
+        <a href="assets/gallery1.jpg" class="tile" data-alt="assets/gallery1b.jpg"><img src="assets/gallery1.jpg" alt="Gallery 1"></a>
+        <a href="assets/gallery2.jpg" class="tile" data-alt="assets/gallery2b.jpg"><img src="assets/gallery2.jpg" alt="Gallery 2"></a>
+        <a href="assets/gallery3.jpg" class="tile" data-alt="assets/gallery3b.jpg"><img src="assets/gallery3.jpg" alt="Gallery 3"></a>
+        <a href="assets/gallery4.jpg" class="tile" data-alt="assets/gallery4b.jpg"><img src="assets/gallery4.jpg" alt="Gallery 4"></a>
+        <a href="assets/gallery5.jpg" class="tile" data-alt="assets/gallery5b.jpg"><img src="assets/gallery5.jpg" alt="Gallery 5"></a>
+        <a href="assets/gallery6.jpg" class="tile" data-alt="assets/gallery6b.jpg"><img src="assets/gallery6.jpg" alt="Gallery 6"></a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <h2 class="section-title">About this Fan Project</h2>
+      <p>EF2000: Then & Now is a non‑commercial fan tribute. The goal is to place original DOS‑era scenes next to modern 2025 reinterpretations in a respectful, like‑for‑like way.</p>
+      <p class="small">Image credits: original screenshots captured from the 1995 game; modern visuals are AI‑assisted artwork guided and curated by the project author.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="left">EF2000 · 2025</div>
+    <div class="right">© 2025 EF2000: Then & Now — Fan Project. All trademarks remain with their owners.</div>
+  </footer>
+
+  <button id="toTop" class="to-top" aria-label="Back to top">↑</button>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Close">×</button>
+    <img class="lightbox-img" alt="Expanded image">
+  </div>
+
+  <!-- Locked technical behavior -->
+  <script src="../core-locked/script.js"></script>
+</body>
+</html>
